@@ -9,7 +9,7 @@ import { MapperService } from '../../shared/mapper.service';
 import { UserDto } from './dto/user.dto';
 import { User } from './user.entity';
 import { UserDetails } from './user.details.entity';
-import { Connection, getConnection } from 'typeorm';
+import { getConnection } from 'typeorm';
 import { Role } from '../role/role.entity';
 
 @Injectable()
